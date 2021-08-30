@@ -1,0 +1,162 @@
+.contact-us-wrapper {}
+
+.contact-form {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.contact-form form {
+	margin: 40px 20px;
+	text-align: center;
+}
+
+.contact-form form h2 {
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.form-group input[type="text"], input[type="email"], textarea {
+	outline: none;
+	box-shadow: none !important;
+}
+
+.form-group .form-control {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+    padding: 15px 25px;
+    color: #fff !important;
+    background-color: #fa2a2a;
+    margin-bottom: 30px;
+	border-radius: 30px;
+	border: none;
+}
+
+.form-group textarea {
+	height: 150px
+}
+
+.custom_button {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #212832;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 8px 55px;
+	background-color: #ffffff;
+	border-radius: 30px;
+	transition: .4s;
+}
+
+.custom_button:hover {
+	color: #fa2a2a;
+}
+
+::placeholder {
+  color: #fff !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff !important;
+}
+
+/*media*/
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	.contact-form {
+	    width: 100%;
+	}
+
+	.contact-form form {
+	    margin: 15px 0;
+	}
+
+	.contact-form form h2 {
+	    margin-bottom: 15px;
+	}
+
+	.form-group .form-control {
+	    padding: 8px 20px;
+	    margin-bottom: 15px;
+	}
+
+	.custom_button {
+	    font-size: 20px;
+	    padding: 5px 45px;
+	}
+
+	.form-group textarea {
+	    height: 120px;
+	}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	.contact-form {
+	    width: 90%;
+	}
+
+	.contact-form form {
+	    margin: 20px 0;
+	}
+
+	.contact-form form h2 {
+	    margin-bottom: 15px;
+	}
+
+	.form-group .form-control {
+	    padding: 8px 20px;
+	    margin-bottom: 15px;
+	}
+
+	.custom_button {
+	    font-size: 20px;
+	    padding: 5px 45px;
+	}
+
+	.form-group textarea {
+	    height: 120px;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	.contact-form {
+	    width: 80%;
+	}
+
+	.contact-form form {
+	    margin: 20px 0;
+	}
+
+	.contact-form form h2 {
+	    margin-bottom: 15px;
+	}
+
+	.form-group .form-control {
+	    padding: 10px 20px;
+	    margin-bottom: 15px;
+	}
+
+	.custom_button {
+	    font-size: 20px;
+	    padding: 5px 45px;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+/*media*/
